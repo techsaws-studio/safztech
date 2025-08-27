@@ -81,7 +81,7 @@ export const defaultMetadata: Metadata = {
     siteName: "Safztech",
     images: [
       {
-        url: "/social/og-default.jpg",
+        url: `${BASE_URL}/social/og-default.jpg`,
         width: 1200,
         height: 630,
         alt: "Safztech - Your Vision, Engineered to Perfection",
@@ -94,7 +94,7 @@ export const defaultMetadata: Metadata = {
     title: "Safztech - Your Vision, Engineered to Perfection",
     description:
       "Safztech is a premium tech agency delivering custom websites, software solutions, and digital experiences that bring your vision to life with precision and innovation.",
-    images: ["/social/twitter-preview.jpg"],
+    images: [`${BASE_URL}/social/twitter-preview.jpg`],
     creator: "@TechSaws",
   },
 
