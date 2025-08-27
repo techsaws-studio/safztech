@@ -21,7 +21,7 @@ export default function FullScreenMenu({
   }, [isOpen]);
 
   const menuItems = [
-    { name: "Home", href: "#hero" },
+    { name: "Home", href: "/" },
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Pricing", href: "#pricing" },

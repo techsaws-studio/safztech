@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 import { ChevronDown } from "lucide-react";
@@ -44,10 +46,18 @@ function HomeHeroSection() {
           </div>
         </div>
 
-        <div className="absolute -bottom-[40%] left-1/2 transform -translate-x-1/2">
-          <div className="w-16 h-16 border text-primary border-primary rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all cursor-pointer">
-            <ChevronDown className="w-6 h-6" />
+        <div
+          onClick={() =>
+            document
+              .querySelector("#about")
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
+          className="absolute -bottom-[40%] left-1/2 transform -translate-x-1/2 flex flex-col items-center space-y-3 cursor-pointer"
+        >
+          <div className="w-10 h-16 border-2 border-primary rounded-full flex items-start justify-center relative">
+            <div className="w-2 h-2 bg-primary rounded-full animate-scroll" />
           </div>
+          <ChevronDown className="w-6 h-6 text-primary animate-bounce" />
         </div>
       </div>
     </section>

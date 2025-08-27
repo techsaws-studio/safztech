@@ -1,5 +1,14 @@
-import { Badge } from "@/components/ui/badge";
+"use client";
+
 import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+import { Badge } from "@/components/ui/badge";
+
+import Project01Img from "../../../public/images/e-commerce-project-img.png";
+import Project02Img from "../../../public/images/ai-chatbot-project-img.png";
+import Project03Img from "../../../public/images/admin-dashboard-project-img.png";
 
 function ProjectsSection() {
   return (
@@ -24,7 +33,20 @@ function ProjectsSection() {
         <div className="space-y-24">
           {/* PROJECT 01 */}
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="aspect-video bg-white/5 rounded-lg"></div>
+            <div className="aspect-video rounded-lg overflow-hidden border-2 border-border relative">
+              <motion.div
+                initial={{ y: 0 }}
+                whileHover={{ y: "-30%" }}
+                transition={{ duration: 2, ease: "easeInOut" }}
+                className="h-full w-full"
+              >
+                <Image
+                  src={Project01Img}
+                  alt="E-commerce Website"
+                  className="w-full h-auto object-cover"
+                />
+              </motion.div>
+            </div>
             <div>
               <h3 className="text-2xl font-light mb-4 tracking-wide text-heading font-poppins">
                 E-COMMERCE PLATFORM
@@ -44,27 +66,55 @@ function ProjectsSection() {
           {/* PROJECT 02 */}
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="lg:order-2">
-              <div className="aspect-video bg-white/5 rounded-lg"></div>
+              <div className="aspect-video rounded-lg overflow-hidden border-2 border-border relative">
+                <motion.div
+                  initial={{ y: 0 }}
+                  whileHover={{ y: "-10%" }}
+                  transition={{ duration: 2, ease: "easeInOut" }}
+                  className="h-full w-full"
+                >
+                  <Image
+                    src={Project02Img}
+                    alt="AI Chatbot"
+                    className="w-full h-auto object-cover"
+                  />
+                </motion.div>
+              </div>
             </div>
             <div className="lg:order-1">
               <h3 className="text-2xl font-light mb-4 tracking-wide text-heading font-poppins">
-                TASK MANAGEMENT
+                AI CHATBOT
               </h3>
               <p className="mb-6 leading-relaxed">
-                Collaborative workspace designed for modern teams with real-time
-                synchronization.
+                An intelligent conversational assistant powered by custom model
+                training and real-time data. Designed to handle support,
+                automate workflows, and provide human-like interactions that
+                continuously improve with user feedback.
               </p>
               <div className="flex gap-4 text-sm text-white/50 tracking-wider">
-                <Badge>NEXT.JS</Badge>
-                <span>TYPESCRIPT</span>
+                <Badge>OPENAI API</Badge>
                 <span>SUPABASE</span>
+                <span>PYTORCH</span>
               </div>
             </div>
           </div>
 
           {/* PROJECT 03 */}
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="aspect-video bg-white/5 rounded-lg"></div>
+            <div className="aspect-video rounded-lg overflow-hidden border-2 border-border relative">
+              <motion.div
+                initial={{ y: 0 }}
+                whileHover={{ y: "-30%" }}
+                transition={{ duration: 2, ease: "easeInOut" }}
+                className="h-full w-full"
+              >
+                <Image
+                  src={Project03Img}
+                  alt="Admin Dashboard"
+                  className="w-full h-auto object-cover"
+                />
+              </motion.div>
+            </div>
             <div>
               <h3 className="text-2xl font-light mb-4 tracking-wide text-heading font-poppins">
                 ANALYTICS DASHBOARD

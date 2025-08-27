@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 
 import FullScreenMenu from "./full-screen-menu";
-import Link from "next/link";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -58,6 +58,12 @@ function Header() {
             </button>
 
             <nav className="hidden md:flex space-x-8 lg:translate-x-8">
+              <Link
+                href="/"
+                className="text-heading hover:text-secondary transition-colors tracking-wide uppercase text-sm"
+              >
+                HOME
+              </Link>
               <Link
                 href="#projects"
                 className="text-heading hover:text-secondary transition-colors tracking-wide uppercase text-sm"

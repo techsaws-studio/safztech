@@ -8,3 +8,18 @@
     transform: translateY(0);
   }
 }
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateY(4px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
