@@ -35,8 +35,8 @@ function ContactUsSection() {
   return (
     <section className="section-padding-standard bg-secondary-background">
       <div className="layout-standard section-padding-standard">
-        <div className="mb-[6rem] relative flex flex-col text-center items-center w-full">
-          <h1 className="absolute text-[9rem] font-bold tracking-widest text-white/10 select-none -top-[3.8rem]">
+        <div className="lg:mb-[6rem] mb-[4rem] relative flex flex-col text-center items-center w-full max-lg:gap-2">
+          <h1 className="absolute text-[9rem] font-bold tracking-widest text-white/10 select-none -top-[3.8rem] max-lg:hidden">
             CONTACT
           </h1>
           <h2 className="relative text-4xl md:text-5xl font-medium text-heading font-poppins">

@@ -57,7 +57,7 @@ function Header() {
               SAFZTECH
             </button>
 
-            <nav className="hidden md:flex space-x-8 translate-x-8">
+            <nav className="hidden md:flex space-x-8 lg:translate-x-8">
               <Link
                 href="#projects"
                 className="text-heading hover:text-secondary transition-colors tracking-wide uppercase text-sm"
@@ -79,7 +79,7 @@ function Header() {
             </nav>
 
             <div className="flex items-center space-x-4">
-              <div className="hidden md:block">
+              <div className="hidden lg:block">
                 <button
                   onClick={scrollToContact}
                   className="border-2 border-primary px-6 py-2 rounded-full text-sm tracking-wide uppercase hover:bg-primary hover:text-primary-foreground text-primary transition-all"

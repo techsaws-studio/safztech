@@ -15,7 +15,7 @@ function AboutSection() {
       className="layout-standard section-padding-standard border-t border-border"
     >
       <div className="section-padding-standard">
-        <div className="grid lg:grid-cols-[2fr_1fr] gap-32 items-start">
+        <div className="grid lg:grid-cols-[2fr_1fr] lg:gap-32 gap-12 items-start">
           <div>
             <h2 className="text-4xl md:text-5xl font-semibold text-heading font-poppins tracking-tight mb-8">
               ABOUT SAFZTECH
@@ -50,7 +50,6 @@ function AboutSection() {
               </div>
             </div>
 
-            {/* Contact */}
             <div>
               <h3 className="text-xl mb-4 tracking-wide text-heading font-poppins font-semibold">
                 CONTACT

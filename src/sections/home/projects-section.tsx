@@ -8,8 +8,8 @@ function ProjectsSection() {
       className="bg-secondary-background section-padding-standard"
     >
       <div className="layout-standard section-padding-standard">
-        <div className="mb-[6rem] relative flex flex-col text-center items-center w-full">
-          <h1 className="absolute text-[9rem] font-bold tracking-widest text-white/10 select-none -top-[4.2rem]">
+        <div className="lg:mb-[6rem] mb-[4rem] relative flex flex-col text-center items-center w-full max-lg:gap-4">
+          <h1 className="absolute text-[9rem] font-bold tracking-widest text-white/10 select-none -top-[4.2rem] max-lg:hidden">
             PORTFOLIO
           </h1>
           <h2 className="relative text-4xl md:text-5xl font-medium text-heading font-poppins">

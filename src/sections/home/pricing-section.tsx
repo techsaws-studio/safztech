@@ -6,8 +6,8 @@ function PricingSection() {
   return (
     <section id="pricing" className="section-padding-standard">
       <div className="layout-standard section-padding-standard">
-        <div className="mb-[6rem] relative flex flex-col text-center items-center w-full">
-          <h1 className="absolute text-[9rem] font-bold tracking-widest text-white/10 select-none -top-[4.2rem]">
+        <div className="lg:mb-[6rem] mb-[4rem] relative flex flex-col text-center items-center w-full max-lg:gap-2">
+          <h1 className="absolute text-[9rem] font-bold tracking-widest text-white/10 select-none -top-[4.2rem] max-lg:hidden">
             PRICING
           </h1>
           <h2 className="relative text-4xl md:text-5xl font-medium text-heading font-poppins">
@@ -18,7 +18,7 @@ function PricingSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
           {PricingSectionContent.map((pkg, idx) => (
             <div
               key={idx}
