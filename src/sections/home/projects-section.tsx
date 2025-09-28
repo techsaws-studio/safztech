@@ -14,7 +14,7 @@ function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="bg-secondary-background section-padding-standard"
+      className="bg-background section-padding-standard"
     >
       <div className="layout-standard section-padding-standard">
         <div className="lg:mb-[6rem] mb-[4rem] relative flex flex-col text-center items-center w-full max-lg:gap-4">

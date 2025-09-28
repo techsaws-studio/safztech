@@ -65,17 +65,24 @@ function Header() {
                 HOME
               </Link>
               <Link
-                href="#projects"
-                className="text-heading hover:text-secondary transition-colors tracking-wide uppercase text-sm"
-              >
-                PROJECTS
-              </Link>
-              <Link
                 href="#about"
                 className="text-heading hover:text-secondary transition-colors tracking-wide uppercase text-sm"
               >
                 ABOUT
               </Link>
+              <Link
+                href="#services"
+                className="text-heading hover:text-secondary transition-colors tracking-wide uppercase text-sm"
+              >
+                OUR SERVICES
+              </Link>
+              <Link
+                href="#projects"
+                className="text-heading hover:text-secondary transition-colors tracking-wide uppercase text-sm"
+              >
+                PROJECTS
+              </Link>
+
               <Link
                 href="#pricing"
                 className="text-heading hover:text-secondary transition-colors tracking-wide uppercase text-sm"

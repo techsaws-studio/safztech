@@ -1,8 +1,52 @@
+import Service01Img from "../../public/images/service-01-img.jpg";
+import Service02Img from "../../public/images/service-02-img.jpg";
+import Service03Img from "../../public/images/service-03-img.jpg";
+import Service04Img from "../../public/images/service-04-img.jpg";
+import Service05Img from "../../public/images/service-05-img.jpg";
+import Service06Img from "../../public/images/service-06-img.png";
+import Service07Img from "../../public/images/service-07-img.webp";
+import Service08Img from "../../public/images/service-08-img.avif";
+
 export const TrustbarSectionContent = [
   { number: "5+", label: "Years Experience" },
   { number: "50+", label: "Projects Completed" },
   { number: "25+", label: "Happy Clients" },
   { number: "100%", label: "Client Satisfaction" },
+];
+
+export const OurServicesSectionContent = [
+  {
+    img: Service01Img,
+    title: "Website Design & Development",
+  },
+  {
+    img: Service02Img,
+    title: "App Development",
+  },
+  {
+    img: Service03Img,
+    title: "Social Media Management",
+  },
+  {
+    img: Service04Img,
+    title: "Branding & Graphic Design",
+  },
+  {
+    img: Service05Img,
+    title: "Search Engine Optimization (SEO)",
+  },
+  {
+    img: Service06Img,
+    title: "Paid Advertising",
+  },
+  {
+    img: Service07Img,
+    title: "Content Creation (Photo/Video)",
+  },
+  {
+    img: Service08Img,
+    title: "Other Services",
+  },
 ];
 
 export const PricingSectionContent = [

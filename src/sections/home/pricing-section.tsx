@@ -4,7 +4,7 @@ import { PricingSectionContent } from "@/contents/home-page-content";
 
 function PricingSection() {
   return (
-    <section id="pricing" className="section-padding-standard">
+    <section id="pricing" className="bg-secondary-background section-padding-standard">
       <div className="layout-standard section-padding-standard">
         <div className="lg:mb-[6rem] mb-[4rem] relative flex flex-col text-center items-center w-full max-lg:gap-2">
           <h1 className="absolute text-[9rem] font-bold tracking-widest text-white/10 select-none -top-[4.2rem] max-lg:hidden">
